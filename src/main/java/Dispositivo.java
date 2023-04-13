@@ -10,6 +10,17 @@ public abstract class Dispositivo {
 	private double precio;
 	private int cantidad;
 
+	public Dispositivo(String marca, int memoriaRam, int memoriaAlmacenamiento, String procesador, String modelo, String anoFabricacion, double precio, int cantidad) {
+		this.marca = marca;
+		this.memoriaRam = memoriaRam;
+		this.memoriaAlmacenamiento = memoriaAlmacenamiento;
+		this.procesador = procesador;
+		this.modelo = modelo;
+		this.anoFabricacion = anoFabricacion;
+		this.precio = precio;
+		this.cantidad = cantidad;
+	}
+
 	public String getMarca() {
 		return this.marca;
 	}

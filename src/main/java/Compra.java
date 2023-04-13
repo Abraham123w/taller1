@@ -3,6 +3,10 @@
 public class Compra {
 	private String fecha;
 
+	public Compra(String fecha) {
+		this.fecha = fecha;
+	}
+
 	public String getFecha() {
 		return this.fecha;
 	}

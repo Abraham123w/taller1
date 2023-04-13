@@ -28,4 +28,13 @@ public class Tienda {
 	public void imprimirTiposDeDispositivosAtribu() {
 		throw new UnsupportedOperationException();
 	}
+	public void agregarDispositivo(Dispositivo dispositivo) {
+		dispositivos.add(dispositivo);
+	}
+	public void agregarVenta(Compra venta) {
+		compras.add(venta);
+	}
+
+
+
 }
